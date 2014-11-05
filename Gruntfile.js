@@ -37,7 +37,7 @@ module.exports = function(grunt) {
     assemble: {
       options: {
         flatten: true,
-        production: false,
+        production: true,
         assets: '<%= site.assets %>',
         postprocess: require('pretty'),
 
