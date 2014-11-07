@@ -6682,7 +6682,7 @@ h6:hover .anchor .glyphicon {
   color: #fff;
   background-color: #d70000;
   border-top: 1px solid #ff0b0b;
-  border-bottom: 1px solid #a40000;
+  border-bottom: 1px solid #ff0b0b;
 }
 .belt strong {
   color: cornsilk;
@@ -6724,8 +6724,6 @@ h6:hover .anchor .glyphicon {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  max-width: 38%;
-  float: right;
 }
 .marc-right:before,
 .marc-right:after {
@@ -6755,13 +6753,13 @@ h6:hover .anchor .glyphicon {
   padding: 0 !important;
 }
 .marc-right nav ul li a {
-  padding: 10px;
+  padding: 8px 10px;
 }
 .marc-right nav ul li a:hover {
   background-color: #222222;
 }
 .marc-right nav ul li a img {
-  height: 40px;
+  height: 40px !important;
 }
 pre {
   background: #F8F8FF;
